@@ -26,7 +26,7 @@ const billernewApiRoutes = require('./routes/bilerroutenew');
 
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const MONGODB_URI = process.env.MONGODB_URI;
 
 app.use(express.json({ limit: '10mb' })); // Adjust the limit as needed
